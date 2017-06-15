@@ -6,6 +6,7 @@ if isnull(N)
 end
 if N.value < 0
     println("Prosze wpisac wartosc dodatnia")
+    exit(0)
 end
 a = 2
 topBound = 60
